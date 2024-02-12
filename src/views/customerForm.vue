@@ -58,14 +58,11 @@
 </template>
 
 <script>
-import { rules } from '../components/helpers/formValidation';
-
 export default {
   auth: false,
   layout: 'blank',
   data() {
     return {
-      rules,
       formData: {
         name: '',
         employeeId: '',
